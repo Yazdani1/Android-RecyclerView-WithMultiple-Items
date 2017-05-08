@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">RecyclerViewAnother</string>
+
+    <string-array name="item_title">
+
+        <item>Dress</item>
+        <item>Fashion</item>
+        <item>Dress</item>
+        <item>Fashion</item>
+        <item>Dress</item>
+        <item>Fashion</item>
+        <item>Dress</item>
+        <item>Fashion</item>
+        <item>Dress</item>
+        <item>Fashion</item>
+
+    </string-array>
+
+
+    <string-array name="description_item">
+
+        <item>Dress Code</item>
+        <item>Fashoin Style</item>
+
+        <item>Dress Code</item>
+        <item>Fashoin Style</item>
+
+        <item>Dress Code</item>
+        <item>Fashoin Style</item>
+
+        <item>Dress Code</item>
+        <item>Fashoin Style</item>
+
+        <item>Dress Code</item>
+        <item>Fashoin Style</item>
+
+    </string-array>
+
+    <string-array name="price_item">
+
+        <item>$200</item>
+        <item>$500</item>
+        <item>$2200</item>
+        <item>$500</item>
+        <item>$200</item>
+        <item>$500</item>
+        <item>$400</item>
+        <item>$100</item>
+        <item>$200</item>
+        <item>$250</item>
+
+    </string-array>
+
+
+
+
+
+</resources>

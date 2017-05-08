@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/item_background"
+    android:layout_height="130dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image_xml"
+        android:src="@drawable/d"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/image_xml"
+        android:text="Title"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_margin="10dp"
+        android:id="@+id/title_xml"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_xml"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:text="Description"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/description_xml"
+        android:layout_toRightOf="@id/image_xml"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:layout_toRightOf="@id/description_xml"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Price"
+        android:id="@+id/price_xml"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+</RelativeLayout>
